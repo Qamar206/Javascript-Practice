@@ -27,3 +27,6 @@ const student = {
     marks : 100,
     isPass : true,
 }
+
+console.log (student["age"])
+console.log (student.age)
