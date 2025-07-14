@@ -1,3 +1,6 @@
-console.log("this is my first java script code line");
-console.log("Qamar Ali");
-console.log("reading variables")
+fullname = "Qamar Ali";
+age=34
+price=100
+console.log(fullname)
+console.log(age)
+console.log(price)
