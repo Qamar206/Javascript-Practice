@@ -21,4 +21,9 @@
 // console.log (totalPrice)
 // }
 
-let age = 34;
+const student = {
+    fullName : "Qamar Ali",
+    age : 20,
+    marks : 100,
+    isPass : true,
+}
