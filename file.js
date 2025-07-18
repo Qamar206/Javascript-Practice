@@ -30,3 +30,5 @@ const student = {
 
 console.log (student["age"])
 console.log (student.age)
+
+student["age"]
