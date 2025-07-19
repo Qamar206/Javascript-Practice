@@ -1,0 +1,16 @@
+console.log("Hello World");
+
+//Arithmetic Operator
+let a = 5;
+let b = 2;
+
+console.log ("a =", a)
+console.log ("b =", b)
+//or
+console.log (" a =", a, "& b =", b)
+console.log (" a + b = ", a + b)
+console.log (" a - b = ", a - b)
+console.log (" a * b = ", a * b)
+console.log (" a / b = ", a / b)
+console.log (" a % b = ", a % b)
+
