@@ -58,7 +58,7 @@ console.log ("cond1 && cond2 = ", cond1 && cond2)
 
 let cond3= a3 < b3; //false
 let cond4= a3===b3;//true
-console.log ("cond1 && cond2 = ", cond3 && cond4)
+console.log ("cond3 && cond4 = ", cond3 && cond4)
 
 //Example of logical Operators OR "||"
 console.log("cond1 || cond2 =", a3<b3 || a3===6)
@@ -68,6 +68,7 @@ console.log(!(a3>b3));
 
 //-------------------------------------------------------------------------------------------------
 //Conditional Statements
+//if Examples
 let age = 25;
 if (age >= 18){
     console.log("You Can Vote")
@@ -96,6 +97,7 @@ if(mode1 === "light"){
 }
 console.log (color1);
 
+//if-else Example
 let mode2 = "light";
 let color2;
 if (mode2 === "dark"){
