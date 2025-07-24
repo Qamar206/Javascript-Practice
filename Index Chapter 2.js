@@ -69,11 +69,11 @@ console.log(!(a3>b3));
 //-------------------------------------------------------------------------------------------------
 //Conditional Statements
 //if Examples
-let age = 25;
-if (age >= 18){
+let age1 = 25;
+if (age1 >= 18){
     console.log("You Can Vote")
 }
-if (age < 18){
+if (age1 < 18){
     console.log("You Cannot Vote")
 }
 
@@ -97,12 +97,50 @@ if(mode1 === "light"){
 }
 console.log (color1);
 
-//if-else Example
+//if-else Examples
 let mode2 = "light";
 let color2;
 if (mode2 === "dark"){
     color2 = "Black"
 } else {
-    color2 = "white"
+    color2 = "Light"
 }
 console.log(color2)
+
+let mode3 = "dark"
+let color3
+if(mode3 === "dark"){
+    color3= "Black"
+} else {
+    color3 = "White"
+}
+console.log (color3)
+
+let age2 = 25;
+if(age2 >=18){
+    console.log("Vote")
+} else {
+    console.log("Not Vote")
+}
+
+let age = 16;
+if(age>=18){
+    console.log("Vote")
+} else {
+    console.log("Not Vote")
+}
+
+//Find out if the number is even or odd
+let num1 = 10;
+if (num1%2 === 0){
+    console.log(num1,"This number is Even")
+} else {
+    console.log (num1,"This number is Odd")
+}
+//other Example
+let num = 7;
+if(num%2 === 0){
+    console.log(num,"This number is Even")
+} else{
+    console.log(num,"This number is Odd")
+}
