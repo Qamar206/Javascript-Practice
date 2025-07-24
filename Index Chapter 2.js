@@ -29,8 +29,8 @@ console.log("Hello World");
 // console.log (a) //7
 
 // Assignment Operators
-let a = 5;
-let b = 2;
+// let a = 5;
+// let b = 2;
 
 // a += 4
 // console.log ("a =",a)
@@ -47,3 +47,21 @@ let b = 2;
 // a **= 4
 // console.log ("a =",a)
 
+//Logical Operators
+let a = 6;
+let b = 5;
+
+//Example of Logical Operator AND "&"
+// let cond1= a > b //true
+// let cond2= a === 6 // true
+// console.log ("cond1 && cond2 = ", cond1 && cond2)
+
+// let cond1= a < b; //false
+// let cond2= a===b;//true
+// console.log ("cond1 && cond2 = ", cond1 && conde2)
+
+//Example of logical Operators OR "||"
+console.log("cond1 || cond2 =", a<b || a===6)
+
+//Exampple of logical Operator Not "!"
+console.log(!(a>b));
