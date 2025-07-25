@@ -123,8 +123,8 @@ if(age2 >=18){
     console.log("Not Vote")
 }
 
-let age = 16;
-if(age>=18){
+let age3 = 16;
+if(age3>=18){
     console.log("Vote")
 } else {
     console.log("Not Vote")
