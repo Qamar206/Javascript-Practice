@@ -77,17 +77,7 @@ if (age1 < 18){
     console.log("You Cannot Vote")
 }
 
-let mode = "dark";
-let color;
-if ( mode === "dark"){
-    color = "black";
-}
-if(mode === "light"){
-    color = "white";
-}
-console.log (color);
-
-let mode1 = "light";
+let mode1 = "dark";
 let color1;
 if ( mode1 === "dark"){
     color1 = "black";
@@ -97,24 +87,34 @@ if(mode1 === "light"){
 }
 console.log (color1);
 
-//if-else Examples
 let mode2 = "light";
 let color2;
-if (mode2 === "dark"){
-    color2 = "Black"
-} else {
-    color2 = "Light"
+if ( mode2 === "dark"){
+    color2 = "black";
 }
-console.log(color2)
+if(mode2 === "light"){
+    color2 = "white";
+}
+console.log (color2);
 
-let mode3 = "dark"
-let color3
-if(mode3 === "dark"){
-    color3= "Black"
+//if-else Examples
+let mode3 = "light";
+let color3;
+if (mode3 === "dark"){
+    color3 = "Black"
 } else {
-    color3 = "White"
+    color3 = "Light"
 }
-console.log (color3)
+console.log(color3)
+
+let mode4 = "dark"
+let color4
+if(mode4 === "dark"){
+    color4= "Black"
+} else {
+    color4 = "White"
+}
+console.log (color4)
 
 let age2 = 25;
 if(age2 >=18){
@@ -144,3 +144,28 @@ if(num%2 === 0){
 } else{
     console.log(num,"This number is Odd")
 }
+// Example else-if statement checking multiple conditions.
+let mode5 = "dark"
+let color5;
+if (mode5 === "dark"){
+    color5 = "black"
+} else if (mode5 === "blue"){
+    color5 = "blue"
+} else if (mode5 === "pink"){
+    color5 = "pink"
+} else {
+    color5 = "white"
+}
+console.log(color5)
+
+let mode = "silver"
+let color;
+if (mode === "dark"){
+    color = "black"
+} else if (mode === "blue"){
+    color = "blue"
+} else if (mode === "pink"){
+    color = "pink"
+}
+else { color = "white"}
+console.log(color)
