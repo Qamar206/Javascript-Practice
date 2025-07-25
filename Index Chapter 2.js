@@ -157,6 +157,9 @@ if (mode5 === "dark"){
     color5 = "white"
 }
 console.log(color5)
+if (mode5 === "dark"){
+    console.log(mode5)
+}
 
 let mode = "silver"
 let color;
@@ -169,3 +172,6 @@ if (mode === "dark"){
 }
 else { color = "white"}
 console.log(color)
+if (mode === "silver"){
+    console.log (mode)
+}
