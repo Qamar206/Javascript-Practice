@@ -161,17 +161,20 @@ if (mode5 === "dark"){
     console.log(mode5)
 }
 
-let mode = "silver"
-let color;
-if (mode === "dark"){
-    color = "black"
-} else if (mode === "blue"){
-    color = "blue"
-} else if (mode === "pink"){
-    color = "pink"
+let mode6 = "silver"
+let color6;
+if (mode6 === "dark"){
+    color6 = "black"
+} else if (mode6 === "blue"){
+    color6 = "blue"
+} else if (mode6 === "pink"){
+    color6 = "pink"
 }
-else { color = "white"}
-console.log(color)
-if (mode === "silver"){
-    console.log (mode)
-}
+else { color6 = "white"}
+console.log(color6)
+
+ if (mode6 === "dark"){
+    console.log(mode6)
+ }
+ 
+ 
