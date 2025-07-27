@@ -177,4 +177,19 @@ console.log(color6)
     console.log(mode6)
  }
  
+
+ // example of ternory operator
+ let age4 = 25;
+ let result = age4 >= 18 ? "adult" : "not adult";
+ console.log (result);
  
+ let age5 = 16;
+ let result1 = age5 >= 18 ? "adult" : "not adult";
+ console.log (result1);
+ 
+// short method of ternory operator
+ let age6 = 25;
+ age6 >= 18 ? console.log ("adult") : console.log ("not adult")
+
+ let age7 = 16;
+ age7 >= 18 ? console.log ("adult") : console.log ("not adult")
