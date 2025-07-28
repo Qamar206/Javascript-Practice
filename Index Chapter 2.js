@@ -189,7 +189,7 @@ console.log(color6)
  
 // short method of ternory operator
  let age6 = 25;
- age6 >= 18 ? console.log ("adult") : console.log ("not adult")
+ age6 >= 18 ? console.log ("adult") : console.log ("not adult") // simpler, or compact if-else
 
  let age7 = 16;
- age7 >= 18 ? console.log ("adult") : console.log ("not adult")
+ age7 >= 18 ? console.log ("adult") : console.log ("not adult") // simpler, or compact if-else

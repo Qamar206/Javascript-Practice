@@ -12,3 +12,18 @@ p{
 button{
     text-align: center;
 }
+pre{
+    font-size: x-large;
+}
+.let{
+    color: red;
+    font-weight: bolder
+}
+.if{
+    color: red;
+    font-weight: bolder;
+}
+.if-else{
+    color: dark purple;
+    font-weight: bolder;
+}
