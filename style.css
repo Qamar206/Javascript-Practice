@@ -17,13 +17,26 @@ pre{
 }
 .let{
     color: red;
-    font-weight: bolder
+    font-weight: bolder;
+    font-size: x-large;
+    
 }
 .if{
     color: red;
     font-weight: bolder;
+    font-size: x-large;
 }
 .if-else{
-    color: dark purple;
+    color: purple;
     font-weight: bolder;
+    font-size: xx-large;
+}
+.my-button{
+            padding: 15px 30px; /* Button ka size andar se barhane ke liye */
+            font-size: 1.5em; /* Button ke text ka size barhane ke liye */
+            background-color: #007bff; /* Button ka background color */
+            color: white; /* Button ke text ka color */
+            border: none; /* Border hata dein */
+            border-radius: 8px; /* Button ko gol corners dein */
+            cursor: pointer;
 }
