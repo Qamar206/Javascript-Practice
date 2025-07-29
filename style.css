@@ -16,7 +16,7 @@ button{
 }
 pre{
     font-size: x-large;
-    font-weight: bold;
+    font-weight: bolder;
 }
 .let{
     color: red;
@@ -65,6 +65,10 @@ h2{
 .heading-afterh1{
     color: rgb(126, 23, 223);
     font-weight: bold;
-    font-size: xx-large;
+    font-size: 1.5em;
     text-decoration: underline;
+}
+.for{
+    color: red;
+    font-weight: bold;
 }
