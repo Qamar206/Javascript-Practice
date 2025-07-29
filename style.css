@@ -5,6 +5,8 @@ body{
 }
 h1{
     color: blue;
+    text-align: center;
+    text-decoration: underline;
 }
 p{
     font-size: larger;
@@ -33,13 +35,13 @@ pre{
     font-size: xx-large;
 }
 .my-button{
-            padding: 15px 30px; /* Button ka size andar se barhane ke liye */
-            font-size: 1.5em; /* Button ke text ka size barhane ke liye */
-            background-color: #007bff; /* Button ka background color */
-            color: white; /* Button ke text ka color */
-            border: none; /* Border hata dein */
-            border-radius: 8px; /* Button ko gol corners dein */
-            cursor: pointer;
+    padding: 15px 30px; /* Button ka size andar se barhane ke liye */
+    font-size: 1.5em; /* Button ke text ka size barhane ke liye */
+    background-color: #007bff; /* Button ka background color */
+    color: white; /* Button ke text ka color */
+    border: none; /* Border hata dein */
+    border-radius: 8px; /* Button ko gol corners dein */
+    cursor: pointer;
 }
 h2{
     color: blue;
@@ -60,6 +62,9 @@ h2{
     padding:0;
     padding-left: 200px;
 }
-.circle-list-item {
-
+.heading-afterh1{
+    color: rgb(126, 23, 223);
+    font-weight: bold;
+    font-size: xx-large;
+    text-decoration: underline;
 }
