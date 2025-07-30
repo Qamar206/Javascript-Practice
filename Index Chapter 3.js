@@ -50,3 +50,10 @@ for (var d=1; d<=10;d++){
 }
 console.log ("value of d is =",d)
 console.log("that is y we are able to asign d 2 time after on and other")
+
+//while loop
+let e = 1;
+while (e<=5){
+    console.log("e =",e);
+    e++
+}
