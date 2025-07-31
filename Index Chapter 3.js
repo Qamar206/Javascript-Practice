@@ -89,8 +89,17 @@ for (let i of str1){ //iterator -> characters
     console.log ("i =",i);
 }
 console.log ("End of for of Loop of i variable")
-let str = "JavaScript";
-for (let j of str){
+let str2 = "JavaScript";
+for (let j of str2){
     console.log ("j =",j)
 }
 console.log ("End Of for of Loop of j variable")
+
+let str = "JavaScript";
+let size = 0;
+for (let k of str){
+    console.log ("k =",k)
+    size++;
+}
+console.log ("string size = ",size)
+console.log ("End Of for of Loop of k variable")// 10 chracters
