@@ -6,6 +6,8 @@ for (let i=1; i<=5; i++){
  console.log ("Index Ihapter 3");
 } //this is a for loop example
 
+
+console.log ("-----------------------------------------------")
 //Calculate sum o 1 to 5 Numbers
 let sum1 = 0;
 for (i=1;i<=5;i++){
@@ -31,6 +33,7 @@ console.log ("sum =",sum3)
 console.log ("sum = 2+3=5, 5+4=9, 9+5=14, 14+6=20, 20+7=27, 27+8=35, 35+9=44, 44+10=54")
 console.log ("End Of Loop")
 
+console.log ("-----------------------------------------------")
 //Claculate sum of 1 to n (n could b any number)
 let sum = 0;
 let n = 6;
@@ -51,6 +54,8 @@ for (var d=1; d<=10;d++){
 console.log ("value of d is =",d)
 console.log("that is y we are able to asign d 2 time after on and other")
 
+
+console.log ("-----------------------------------------------")
 //while loop
 let e = 1;
 while (e<=5){
@@ -66,6 +71,8 @@ while (f<=10){
 }
 console.log ("while loop has ended after printing 10 times")
 
+
+console.log ("-----------------------------------------------")
 //do while loop
 let g = 20;
 do {
@@ -83,6 +90,8 @@ do {
 }while (h<=5);
 console.log("this is a do-while loop")
 
+
+console.log ("-----------------------------------------------")
 //for-of loop
 let str1 = "this is a for-loop";
 for (let i of str1){ //iterator -> characters
@@ -97,9 +106,24 @@ console.log ("End Of for of Loop of j variable")
 
 let str = "JavaScript";
 let size = 0;
-for (let k of str){
-    console.log ("k =",k)
+for (let val of str){
+    console.log ("val =",val)
     size++;
 }
 console.log ("string size = ",size)
-console.log ("End Of for of Loop of k variable")// 10 chracters
+console.log ("End Of for of Loop of val variable")// 10 chracters
+
+
+console.log("-----------------------------------------------")
+//for-in loops
+console.log("this is for-loop")
+let student = {
+    name: "Qamar Ali",
+    age: 20,
+    marks: 75,
+    isPass: true,
+};
+
+for (let key in student){
+    console.log ("key =",key,", Value = ",student[key]);
+}
