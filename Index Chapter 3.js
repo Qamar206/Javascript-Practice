@@ -82,3 +82,15 @@ do {
     h++;
 }while (h<=5);
 console.log("this is a do-while loop")
+
+//for-of loop
+let str1 = "this is a for-loop";
+for (let i of str1){ //iterator -> characters
+    console.log ("i =",i);
+}
+console.log ("End of for of Loop of i variable")
+let str = "JavaScript";
+for (let j of str){
+    console.log ("j =",j)
+}
+console.log ("End Of for of Loop of j variable")
