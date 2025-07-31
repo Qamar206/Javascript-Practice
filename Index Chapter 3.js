@@ -57,3 +57,28 @@ while (e<=5){
     console.log("e =",e);
     e++
 }
+console.log ("it is a while loop")
+
+let f = 1;
+while (f<=10){
+    console.log ("its a while loop")
+    f++
+}
+console.log ("while loop has ended after printing 10 times")
+
+//do while loop
+let g = 20;
+do {
+    console.log ("this is a do-while loop");
+    g++;
+} while (g<=10); // the vaule of g is greater then 10 that is why the code loop ran just 1 time.
+
+console.log ("the loop will run just 1 time")
+
+//2nd example of do while loop
+let h = 1;
+do {
+    console.log ("h = ",h);
+    h++;
+}while (h<=5);
+console.log("this is a do-while loop")
