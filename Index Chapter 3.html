@@ -16,16 +16,16 @@
     <b>
         <span class="heading-afterh1">Loops In JS</span>
         Loops are used to execute a piece of code again & again.
-                1. for Loop
+                1. <span class="for">for</span> Loop
                 2. while Loop
                 3. do-while Loop
-                4. for-of Loop
-                5. for-in Loop
+                4. <span class="for">for</span>-of Loop
+                5. <span class="for">for</span>-in Loop
                 6. infinite Loop
 
-        <span class="heading-afterh1">for loop</span>
+        <span class="heading-afterh1"><span class="for">for</span> loop</span>
                 Example:
-                    <span class="indexchapter3pre1">for Loops</span>
+                    <span class="indexchapter3pre1"><span class="for">for</span> Loops</span>
                     <span class="for">for</span> (<span class="let">let</span> i = 1; i &lt;= 5; i++){
                         console.log("Qamar Ali") (or any thing you want to repeat)
                     }
@@ -33,13 +33,13 @@
                     i &lt;= 5; (stopping condition)
                     i++; (updation)
 
-                    for (<span class="let">let</span> i = 1; i &lt;= 5; i++){   
+                    <span class="for">for</span> (<span class="let">let</span> i = 1; i &lt;= 5; i++){   
                     console.log ("Index Ihapter 3");
-                    } //this is a for loop example
+                    } //this is a <span class="for">for</span> loop example
 
                 <span class="indexchapter3pre1">Calculate sum of 0, 1 to 5 Numbers</span>
                     <span class="let">let</span> sum1 = 0;
-                    for (i=1;i&lt=5;i++){
+                    <span class="for">for</span> (i=1;i&lt=5;i++){
                         sum1 = sum1 + i; // sum = 0+1=1, 1+2=3, 3+3=6, 6+4=10, 10+5=10
                     } // The sum answer will be 10
                     console.log ("sum =", sum1)
@@ -48,7 +48,7 @@
 
                 <span class=indexchapter3pre1>Calculate sum of 1, 1 to 5 Number </span>
                     <span class="let">let</span> sum2 = 1;
-                    for (a = 1;a &lt;= 5; a++){
+                    <span class="for">for</span> (a = 1;a &lt;= 5; a++){
                         sum2 = sum2 + a;
                     }
                     console.log ("sum =",sum2)
@@ -57,7 +57,7 @@
 
                 <span class=indexchapter3pre1>Claculate The Sum of 2</span>
                     <span class="let">let</span> sum = 2;
-                    for (b = 3; b &lt;= 10 ; b++){
+                    <span class="for">for</span> (b = 3; b &lt;= 10 ; b++){
                         sum = sum + b;
                     }
                     console.log ("sum =",sum)
@@ -67,14 +67,14 @@
                 <span class = "indexchapter3pre1">Claculate sum of 1 to n (n could b any number)</span>
                     <span class="let">let</span> sum = 0;
                     <span class="let">let</span> n = 6;
-                    for(c = 1; c = n; c++){
+                    <span class="for">for</span>(c = 1; c = n; c++){
                         sum = sum + c
                     }
                     console.log ("sum =",sum)
 
 
         <span class=heading-afterh1>while Loop</span>
-        the work we do with for loop we can also do it from while loop.
+        the work we do with <span class="for">for</span> loop we can also do it from while loop.
         its a differnt method of loop.
         in while loop the condition starts at start.
                 Examples:
@@ -126,27 +126,27 @@
                     }while (h &lt;=5);
                     console.log("this is a do-while loop")
 
-        <span class=heading-afterh1>for-of Loop</span>
+        <span class=heading-afterh1><span class="for">for-of</span> Loop</span>
         it help us to apply loops on "string" and "arrays" we do not use it for objects    
                 Example:
-                    for (<span class="let">let</span> val(variable) of strVar(string variable)){
+                    <span class="for">for</span> (<span class="let">let</span> val(variable) of strVar(string variable)){
                         //do some work
                     }
 
-                    <span class="let">let</span> str1 = "this is a for-loop";
-                    for (<span class="let">let</span> i of str1){ //iterator -> characters
+                    <span class="let">let</span> str1 = "this is a <span class="for">for</span>-loop";
+                    <span class="for">for</span> (<span class="let">let</span> i of str1){ //iterator -> characters
                         console.log ("i =",i);
                     }
-                    console.log ("End of for of Loop of i variable")
+                    console.log ("End of <span class="for">for</span> of Loop of i variable")
                     <span class="let">let</span> str2 = "JavaScript";
-                    for (<span class="let">let</span> j of str2){
+                    <span class="for">for</span> (<span class="let">let</span> j of str2){
                         console.log ("j =",j)
                     }
-                    console.log ("End Of for of Loop of j variable")
+                    console.log ("End Of <span class="for">for</span> of Loop of j variable")
 
                     <span class="let">let</span> str = "JavaScript";
                     <span class="let">let</span> size = 0;
-                    for (<span class="let">let</span> k of str){
+                    <span class="for">for</span> (<span class="let">let</span> k of str){
                        console.log ("k =",k)
                        e++;
                     }
@@ -177,13 +177,13 @@
             <span class=indexchapter3pre1>it will explained by this Example :</span>
             
                     Pirnt 1 for 5 times
-                    for (let d=1; d &lt;=10;d++){
+                    <span class="for">for</span> (let d=1; d &lt;=10;d++){
                         console.log ("d =",d)
                     }
                     in this condition the value of d will b nothing after the loop ended.
 
                     
-                    for (var d=1; d &lt;=10;d++){
+                    <span class="for">for</span> (var d=1; d &lt;=10;d++){
                         console.log ("d =",d)
                     }
                     console.log (d)
