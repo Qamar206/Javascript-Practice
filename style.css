@@ -87,7 +87,8 @@ h2{
   color: rgb(244, 0, 0); /* Text color */
   padding: 15px 30px; /* Padding to adjust size */
   font-size: 18px; /* Font size */
-  border-style:dotted ; /* Border hatane ke liye */
+  border-style:solid ; /* Border hatane ke liye */
   cursor: pointer; /* Mouse pointer ko clickable banane ke liye */
-  border-radius: 12px
+  border-radius: 15px;
+  margin: 0.5%;
     }
