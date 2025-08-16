@@ -84,7 +84,7 @@ h2{
 }
 .allpageslinkson1page{
   background-color: #f5f7f9; /* Background color */
-  color: white; /* Text color */
+  color: rgb(244, 0, 0); /* Text color */
   padding: 15px 30px; /* Padding to adjust size */
   font-size: 18px; /* Font size */
   border-style:dotted ; /* Border hatane ke liye */
