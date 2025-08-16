@@ -24,3 +24,11 @@ console.log ("usage of for loop printing the odd numbers till 100")
 //Practice Question 2 
 // Create a game where you start with any random game number. Ask the user to keep guessing the game number
 // until the user enters correct value.
+let gameNum = 25;
+
+let userNum = prompt ("Guess The Game Number : ");
+
+while (userNum !== gameNum) { // Game
+   userNum = prompt ("You Enterterd The Wring Number, Guess Again")
+}
+console.log ("Congratulations, You Entered The Right Number");
